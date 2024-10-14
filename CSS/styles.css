@@ -33,14 +33,24 @@
 
  body{
     background: #f6eee4;
+
  }
+ .banner {
+    text-align: center;
+    background-color: #5a91a1;
+    padding: 20px 0;
+    color: white;
+}
+
  img{
     /* max-width: 100%; */
     display: block;
-    height: 400px;
     width:1280px;
  }
-
+ 
+ header img {
+    height: 400px; 
+ }
  nav{
     background-color: #2e3233;
 
@@ -70,14 +80,37 @@ main {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
-main p {
-font-size: 1.25em;
+main {
+    background-color: #fff;
+    padding: 2%;
+    font-size: 1.15em;
+    font-family: 'Robot Slab',serif;
 }
+
+
 main h3{
     padding-top: 2%;
 }
 main ul{
     list-style-type: square;
+}
+.specials-link{
+    background-color: #404040;
+    padding: 1%;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.specials-link a{
+   color:#fff;
+   text-decoration: none !important;
+   font-size: 1.5em;
+   display: block;
+}
+.features{
+    margin-left: 10%;
 }
 .link {
 
@@ -97,6 +130,47 @@ main ul{
     text-align: center;
 }
 
+/* For Special Page */
+.product-week, .weekly-sales {
+    padding: 20px;
+    background-color: white;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.product-content {
+    display: flex;
+    align-items: center;
+}
+
+.product-img {
+    max-width: 200px;
+    margin-right: 20px;
+}
+
+.sale-items {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.sale-item {
+    text-align: center;
+    width: 30%;
+}
+
+.sale-img {
+    max-width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sale-item p {
+    margin-top: 10px;
+    font-size: 16px;
+}
 /* Style rules for footer content, */
 
 footer {
