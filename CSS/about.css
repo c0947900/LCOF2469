@@ -1,0 +1,30 @@
+/* Default styles for desktop */
+.about-section, .story-section, .reasons-section, .guarantee-section {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Tablet viewport */
+@media (max-width: 768px) {
+    .about-section, .story-section, .reasons-section, .guarantee-section {
+        padding: 15px;
+    }
+}
+
+/* Mobile viewport */
+@media (max-width: 480px) {
+    .about-section, .story-section, .reasons-section, .guarantee-section {
+        padding: 10px;
+    }
+
+    h1, h2 {
+        font-size: larger;
+    }
+}
+
+
+nav li a:hover {
+    color: #000;
+    background-color: #fff;
+}
